@@ -1,3 +1,6 @@
 .cardArray {
-    
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding-left: 32px;
 }

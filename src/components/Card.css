@@ -1,3 +1,59 @@
+p {
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: #222;
+}
+
 .card {
-    
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card -- img {
+    width: 100%;
+}
+
+.cardText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 2px;
+}
+
+.NoGap {
+    gap: 0px;
+}
+
+.Bold {
+    font-weight: 600;
+}
+
+.light {
+    color: #918E9B;
+}
+
+
+#star {
+    width: 8px;
+}
+
+.chip {
+    background-color: white;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 4px 8px;
+    position: relative;
+    top: 45px;
+    right: -8px;
 }
