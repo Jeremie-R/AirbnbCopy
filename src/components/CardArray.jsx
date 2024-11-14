@@ -8,6 +8,8 @@ export default function CardArray() {
     return (
         <div className="cardArray">
             <Card />
+            <Card />
+            <Card />
         </div>
     )
 }
