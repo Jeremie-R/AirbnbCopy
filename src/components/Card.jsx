@@ -4,12 +4,12 @@ import "./Card.css"
 import CardDefault from "../assets/CardDefault.png"
 import Star from "../assets/Star.png"
 
-export default function Card() {
-    const label = "Label";
-    const cardTitle = "Title"
-    const rating = "0";
-    const country = "USA"
-    const price = "12$"
+export default function Card(props) {
+    const label = props.label;
+    const cardTitle = props.cardTitle || "NoData";
+    const rating = props.rating || "NoData";
+    const country = props.country || "NoData";
+    const price = props.price || "NoData";
 
     return (
         <div className="card">
