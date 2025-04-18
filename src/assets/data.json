@@ -4,21 +4,21 @@
             "rating":"5.0",
             "country":"USA",
             "price":"136$",
-            "label":"",
-            "image":"" } ,
+            "label":"SOLD OUT",
+            "image":"swiming" } ,
         
             {   "title":"Learn wedding photography",
             "rating":"5.0",
             "country":"USA",
             "price":"125$",
-            "label":"",
-            "image":"" } ,
+            "label":"ONLINE",
+            "image":"wedding" } ,
 
             {   "title":"Group Mountain Biking",
             "rating":"5.0",
             "country":"USA",
             "price":"50$",
             "label":"",
-            "image":"" }
+            "image":"bike" }
     ]
 }

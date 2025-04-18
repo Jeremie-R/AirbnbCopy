@@ -2,19 +2,34 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import "./Card.css"
 import CardDefault from "../assets/CardDefault.png"
+import wedding from "../assets/wedding.png"
+import bike from "../assets/bike.png"
+import swiming from "../assets/swiming.png"
 import Star from "../assets/Star.png"
 
+
 export default function Card(props) {
+
+    const imageMap = {
+        CardDefault,
+        wedding,
+        bike,
+        swiming,
+    };
+
+
     const label = props.label;
     const cardTitle = props.cardTitle || "NoData";
     const rating = props.rating || "NoData";
     const country = props.country || "NoData";
     const price = props.price || "NoData";
+    const image = imageMap[props.image] || CardDefault;
+
 
     return (
         <div className="card">
             <div className="chip"><p>{label}</p></div>
-            <img src={CardDefault} alt="card default img" />
+            <img src={image} alt="card default img" />
             <div className="cardText">
                 <div className="Row">
                     <img id="star" src={Star} alt="star" />

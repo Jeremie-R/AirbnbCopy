@@ -18,6 +18,7 @@ export default function CardArray() {
                     rating={card.rating}
                     country={card.country}
                     price={card.price}
+                    image={card.image}
                 />
             ))}
 
