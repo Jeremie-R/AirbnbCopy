@@ -29,10 +29,12 @@ export default function Card(props) {
     return (
         <div className="card">
 
-            {label !== "" && (
+            {label !== "" ? (
                 <div className="chip">
                 <p>{label}</p>
                 </div>
+            ) : (
+                <div className="chip tranparent"> <p>.</p> </div>
             )}
 
             <img src={image} alt="card default img" />

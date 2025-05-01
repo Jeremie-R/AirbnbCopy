@@ -57,3 +57,7 @@ p {
     top: 45px;
     right: -8px;
 }
+
+.tranparent {
+    opacity: 0;
+}
