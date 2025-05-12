@@ -5,7 +5,7 @@ import CardDefault from "../assets/CardDefault.png"
 import wedding from "../assets/wedding.png"
 import bike from "../assets/bike.png"
 import swiming from "../assets/swiming.png"
-import Star from "../assets/Star.png"
+import star from "../assets/star.png"
 
 
 export default function Card(props) {
@@ -40,7 +40,7 @@ export default function Card(props) {
             <img src={image} alt="card default img" />
             <div className="cardText">
                 <div className="Row">
-                    <img id="star" src={Star} alt="star" />
+                    <img id="star" src={star} alt="star" />
                     <p>{rating}</p>
                     <p className="light">{country}</p>
                 </div>
